@@ -136,3 +136,17 @@
         max-width: 350px;
     }
 }
+
+.mobile-block{
+    display: none;
+    .sm{
+        display: flex;
+    }
+}
+
+.mobile-none{
+    display: flex;
+    .sm{
+        display: none;
+    }
+}
