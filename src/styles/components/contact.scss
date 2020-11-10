@@ -1,0 +1,167 @@
+.contact{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 144px 0 100px;
+    @include sm {
+        padding: 104px 0 80px;
+    }
+    &_img{
+        @include bagImg;
+        z-index: 9;
+    }
+    &:before{
+        @include bagImg;
+        content: '';
+        z-index: 11;
+        background-color: $background-white;
+    }
+    &_cont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: $background-gray4;
+        border-radius: 20px;
+        padding: 0 15px;
+        box-sizing: border-box;
+        .sub-title{
+            margin: 118px 0 57px;
+            @include sm {
+                margin: 65px 0 40px;
+            }
+        }
+        &_info{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            // margin: 23px 0;
+            width: 100%;
+            max-width: 600px;
+             
+            &_items{
+                &_link{
+                    display: inline-block;
+                    margin-right: 30px;
+                    cursor: pointer;
+                }
+                .general_paragraph{
+                    display: block;
+                    text-align: left;
+                     
+                }
+            }
+            &:nth-child(2){
+                .contact_cont_info_items:last-child{
+                    @include xs{
+                        order: -1;
+                        margin-bottom: 25px;
+                    }
+                }
+            }
+            &:nth-child(3){
+                @include xs{
+                    margin: 0;
+                }
+                .contact_cont_info_items{
+                    &_link:last-of-type{
+                        margin-right: 0;
+                    }
+                    &:last-of-type{
+                        @include xs {
+                            display: flex;
+                            order: 0;
+                            margin-top: 28px;
+                            width: 100%;
+                            justify-content: flex-end;
+                        }
+                    }
+                }
+            }
+        }
+        &_map{
+            margin: 10px 0 125px 0;  
+            width: 100%;
+            max-width: 600px; 
+            position: relative;
+            height: 246px;
+            @include sm {
+                margin: 20px 0 80px 0;
+            }
+            @include xs {
+                height: 165px;
+            }
+        }
+        &_btn{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            font-size: 21px;
+            font-weight: 300;
+            line-height: 29px;
+            color: $color-white;
+            transition: 0.3s all;
+            @include xs{
+                font-size: 14px;
+                line-height: 19px;
+            }
+            &_mapIcon{
+                margin-left: 30px;
+                display: inline-block;
+                width: 35px;
+                height: 35px;
+                font-size: 24px;
+                background-color: $color-white ;
+                -webkit-mask: url(./../../static/icons/maps.svg) no-repeat center;
+                mask: url(./../../static/icons/maps.svg) no-repeat center;
+                transition: 0.3s all;
+            }
+            &:hover{
+                color: $color-red;
+                cursor: pointer;
+                & > .contact_cont_btn_mapIcon{
+                    background-color: $color-red ;
+                }
+            }
+        }
+    }
+}
+.contact_cont_info{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contact_cont_info_items{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    @include xs{
+        flex-wrap: wrap;
+    }
+    &_row{
+        display: flex;
+        flex-direction: column;
+        .general_paragraph{
+            margin-bottom: 0px;
+        }
+        
+    }
+    a{
+        transition: 0.3s all;
+        cursor: pointer;
+        &:hover{
+            color: $color-red;
+        }
+    }
+}
+
+.contact_cont_info_items_link{
+    transition: 0.3s all;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.2);
+    }
+}

@@ -1,0 +1,94 @@
+.slider{
+    display: block;
+    width: 100%;
+    padding: 30px 0;
+    &_cont{
+        width: 100%;
+        position: relative;
+        &_list{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            border-radius: 10px;
+            padding: 10px 0;
+            box-sizing: border-box;
+            background-color: white;
+            transition: 0.5s opacity;
+            &-active{
+                 
+            }
+            &-active{
+                position: relative;
+            }
+            &_img{
+                object-fit: cover;
+                width: 350px;
+                height: 280px;
+                position: relative;
+                transition: transform 0.5s, left 0.5s;
+            }
+            &_column{
+                display: flex;
+                flex-direction: column;
+                padding-right: 30px;
+                &_title{
+                    font-weight: 800;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: $color-red;
+                }
+                & .general_paragraph{
+                    color: $color-black;
+                    text-align: left;
+                }
+            }
+        }
+        &_button{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            &_btn{
+                min-width: 130px;
+                background-color: $background-gray4;
+                padding: 0;
+                border: none;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                overflow: hidden;
+                &.disabled{
+                    opacity: 0.6;
+                    cursor: not-allowed;
+                } 
+                &_img{
+                    width: 70px;
+                    height: 90px;
+                    object-fit: cover;
+                }
+                &_info{
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0 10px;
+                    &_text{
+                        margin: 0;
+                        font-weight: 300;
+                        font-size: 18px;
+                        line-height: 24px;
+                        text-align: center;
+                        color: $color-white;
+                    }
+                }
+            }
+        }
+    }
+}
+.btn-prex , .btn-nest{
+    position: relative;
+    z-index: 9999;
+}

@@ -1,0 +1,64 @@
+.burger {
+    width: 30px;
+    height: 22px;
+    display: none;
+    transform: rotate(0);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    span {
+      display: block;
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      background: $color-white;
+      opacity: 1;
+      left: 0;
+      transform: rotate(0);
+      transition: all .3s ease-in-out;
+      &:nth-child(1) {
+        top: 0;
+      }
+      &:nth-child(2), &:nth-child(3) {
+        top: 10px;
+      }
+      &:nth-child(4) {
+        top: 20px;
+      }
+    }
+    &.open span{
+      &:nth-child(1), span:nth-child(4) {
+        top: 10px;
+        width: 0;
+        left: 50%;
+      }
+      &:nth-child(2) {
+        transform: rotate(45deg);
+        background: $color-white;
+      }
+      &:nth-child(3) {
+        transform: rotate(-45deg);
+        background: $color-white;
+      }
+    }
+  }
+
+  //nav animation
+  @keyframes slide-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-100%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @media (max-width : 767.98px) {
+    .header .container {
+      max-width: unset;
+    }
+    .burger {
+      display: inline-block;
+    }
+  }

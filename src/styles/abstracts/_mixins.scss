@@ -1,0 +1,29 @@
+
+@mixin lg {
+    @media (max-width: 1200px) { @content; }
+}
+@mixin md {
+    @media (max-width: 992px) { @content; }
+}
+@mixin min-md {
+    @media (min-width: 992px) { @content; }
+}
+@mixin sm {
+    @media (max-width: 768px) { @content; }
+}
+@mixin xsl {
+    @media (max-width: 576px) { @content; }
+}
+@mixin xs {
+    @media (max-width: 480px) { @content; }
+}
+
+@mixin bagImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}

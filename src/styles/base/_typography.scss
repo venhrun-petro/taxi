@@ -1,0 +1,41 @@
+.sub-title{
+    display: block;
+    position: relative;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: $color-red;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    @include sm {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    &:before{
+        content: '';
+        position: absolute;
+        left: 50%;
+        top: 100%;
+        width: 355px;
+        border-top: 1px solid $color-red;
+        transform: translate(-50%, 0);
+        @include sm {
+            width: 207px;
+        }
+    }
+}
+.general_paragraph{
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    text-align: center;
+    color: $color-white;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    @include sm {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}

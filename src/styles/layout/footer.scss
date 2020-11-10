@@ -1,0 +1,28 @@
+.footer{
+    width: 100%;
+    background-color: $background-gray5;
+    padding: 15px 0; 
+    &_cont{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        @include xs{
+            flex-direction: column;
+        }
+        .general_paragraph{
+            margin: 0;
+            font-size: 18px;
+        }
+
+    }
+}
+.footer_soz{
+    display: flex;
+    align-items: center;
+    @include xs{ 
+        margin: 10px auto 0;
+    }
+    .contact_cont_info_items_link:last-child{
+        margin-right: 0; 
+    }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "gatsby-hospitality-core",
+  "description": "gatsby-hospitality-core",
+  "version": "0.1.15",
+  "author": "gatsby-hospitality-core",
+  "dependencies": {
+    "@types/react-redux": "^7.1.9",
+    "gatsby": "^2.23.0",
+    "gatsby-alias-imports": "^1.0.4",
+    "gatsby-plugin-i18n": "^1.0.1",
+    "gatsby-plugin-manifest": "^2.4.10",
+    "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-react-helmet": "^3.3.3",
+    "gatsby-plugin-sass": "^2.3.3",
+    "gatsby-plugin-sharp": "^2.6.10",
+    "gatsby-source-filesystem": "^2.3.10",
+    "gatsby-transformer-json": "^2.4.11",
+    "gatsby-transformer-remark": "^2.8.14",
+    "gatsby-transformer-sharp": "^2.5.4",
+    "google-maps-react": "^2.0.6",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
+    "react-redux": "^7.2.0",
+    "react-responsive": "^8.1.0",
+    "react-scroll": "^1.7.16",
+    "react-slick": "^0.26.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.0"
+  },
+  "keywords": [
+    "gatsby",
+    "Hospitality-apps",
+    "i18n"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  }
+}

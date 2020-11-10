@@ -1,0 +1,17 @@
+{
+  "logo": "/images/logo.svg",
+  "list": [
+    {
+      "item": "About",
+      "src": "about"
+    },
+    {
+      "item": "Sevices",
+      "src": "sevices"
+    },
+    {
+      "item": "Contact",
+      "src": "contact"
+    }
+  ]
+}

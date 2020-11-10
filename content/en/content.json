@@ -1,0 +1,117 @@
+{
+  "title": "WELCOME TO LVIV!",
+  "subTitle": "Готель VOLTER чекає на Вас",
+  "teaserImage": "/images/teaser.jpg",
+  "dataImage": "/icons/guests.svg",
+  "dataThanks": "Thanks You!!!",
+  "dataName": "Імя",
+  "dataPhone": "Номер телефону",
+  "dataButton": "Замовити поїздку",
+
+  "aboutImage": "/images/about.png",
+  "aboutTitile": "ПРО НАС",
+  "aboutText": "Готель приймає гостей вже не один рік, тому наш досвід дозволяє нам з першого знайомства зрозуміти потреби гостей та справдити очікування від наших послуг. Привітний персонал цілодобов зустрічає гостей, допоможе з бронюванням, поселенням, замовленням інших послуг. У нас полюбляють зупинятись як індивідуальні подорожуючі, сім’ї, так і туристичні групи, дитячі групи, спортсмени та інші гості.",
+  "aboutTExtStrong": "Для нас немає нічого неможливого! Звертайтесь – завжди усміхнемось і допоможемо!",
+  "aboutTextBottom": "У готелі ВОЛТЕР 100 номерів різних категорій, кожен з яких обладнаний ванною кімнатою з туалетом, душем або ванною, феном, кондиціонером, телевізором та телефоном, холодильником, сучасними меблями, комфортними ліжками і ортопедичними матрацами. Більшість номерів є новими, мають площу від 26 м2, відповідають вимогам чотиризіркових готелів.",
+  "galleryAbout": [
+    {
+      "img": "/images/slider1.jpg"
+    },
+    {
+      "img": "/images/slider2.jpg"
+    },
+    {
+      "img": "/images/slider1.jpg"
+    },
+    {
+      "img": "/images/slider2.jpg"
+    }
+  ],
+  "contactTitile": "КОНТАКТИ ТА ЗАМОВЛЕННЯ",
+  "contactName1": "Name ...",
+  "contactPhone1": "380686213213",
+  "contactSoz1":[
+    {
+      "src": "",
+      "img": "/icons/facebook.svg"
+    },
+    {
+      "src": "",
+      "img": "/icons/linkedin.svg"
+    },
+    {
+      "src": "",
+      "img": "/icons/twitter.svg"
+    }
+  ],
+  "contactName2": "Name ...",
+  "contactPhone2":"380686213213",
+  "contactSoz2":[
+    {
+      "src": "",
+      "img": "/icons/facebook.svg"
+    },
+    {
+      "src": "",
+      "img": "/icons/linkedin.svg"
+    },
+    {
+      "src": "",
+      "img": "/icons/twitter.svg"
+    }
+  ],
+  "contactSozFooter":[
+    {
+      "src": "",
+      "img": "/icons/facebook.svg"
+    },
+    {
+      "src": "",
+      "img": "/icons/linkedin.svg"
+    },
+    {
+      "src": "",
+      "img": "/icons/twitter.svg"
+    }
+  ],
+  "mapImage": "/images/map.jpg",
+  "mapWidth": "49.86472288353224",
+  "mapHeight": "24.050930595874682",
+  "footerText": "© 2020, Svidnitsa Taxi. All rights reserved",
+  "items": [
+    {
+      "value": "1",
+      "title": "Jon Harrington",
+      "img": "jon",
+      "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "value": "2",
+      "title": "Julia Harrington",
+      "img": "Julia",
+      "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "value": "3",
+      "title": "Jon Harrington",
+      "img": "jon",
+      "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "value": "4",
+      "title": "Julia Harrington",
+      "img": "Julia",
+      "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "value": "5",
+      "title": "Jon Harrington",
+      "img": "jon",
+      "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    }
+  ],
+  "seoTitle": "Східниця Таксі",
+  "seoDescription": "Східниця Таксі",
+  "seoKeywords": "Східниця Таксі"
+  
+}

@@ -1,0 +1,17 @@
+{
+  "logo": "/images/logo.svg",
+  "list": [
+    {
+      "item": "Відгуки",
+      "src": "comments"
+    },
+    {
+      "item": "Про нас",
+      "src": "about"
+    },
+    {
+      "item": "Контакти та замовлення",
+      "src": "contact"
+    }
+  ]
+}
