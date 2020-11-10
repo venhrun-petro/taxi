@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { graphql } from "gatsby"
 import Layout from "~c/layout/layout"
-import SEO from "~c/includes/seo"
+// import SEO from "~c/includes/seo"
 import Teaser from "~c/sections/Teaser"
 import About from "~c/sections/About"
 import Slider from "~c/Slider"
@@ -29,11 +29,11 @@ const HomePage = ({
 
   return (
     <Layout>
-      <SEO title={metaTitle} description={metaDescription} />
+      {/* <SEO title={metaTitle} description={metaDescription} /> */}
       <Teaser />
-      <Slider />
+      {/* <Slider /> */}
       <About />
-      <Contact />
+      {/* <Contact /> */}
     </Layout>
   )
 }

@@ -7,10 +7,10 @@ import HeaderMobile from '~c/includes/NavigationMobile'
 
 const Layout = ({ children}) => (
   <>
-    <Header />
-    <HeaderMobile />
+    {/* <Header /> */}
+    {/* <HeaderMobile /> */}
     <main className="main">{children}</main>
-    <Footer />
+    {/* <Footer /> */}
   </>
 )
 

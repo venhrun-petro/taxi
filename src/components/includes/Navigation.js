@@ -13,9 +13,9 @@ import Logo  from "~img/logo.svg"
 function Navigation() {
   const state = useSelector(props => props); 
   const content = Content(useNavigationQuery())
-  const scrollingToTop = () => {
-    scroll.scrollToTop()
-  } 
+  // const scrollingToTop = () => {
+  //   scroll.scrollToTop()
+  // } 
 
   return ( 
       <header className="header mobile-none " >
@@ -24,7 +24,7 @@ function Navigation() {
             <Link
               to={`/${state.languageValue === "uk" ? "" : state.languageValue}`}
               className="navigation_logo"
-              onClick={scrollingToTop}
+              // onClick={scrollingToTop}
             >
                 {/* <svg viewBox="0 0 320 32.664339801673265" height="32.664339801673265" width="320"  ><defs id="SvgjsDefs1011"><linearGradient id="SvgjsLinearGradient1016"><stop id="SvgjsStop1017" 
               stop-color="#B8BBBF" offset="0"></stop><stop id="SvgjsStop1018" 

@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react'
-import Map from './Map'
+// import Map from './Map'
 import { useStaticQuery, graphql } from 'gatsby'
 import Content from "~u/Content"
 import Img from '~c/general/Image'
@@ -57,7 +57,7 @@ const Contact = () => {
             </div> 
           </div>
           <div className="contact_cont_map">
-            <Map lat={content.mapWidth} lng={content.mapHeight} />
+            {/* <Map lat={content.mapWidth} lng={content.mapHeight} /> */}
           </div>
         </div>
       </div>
