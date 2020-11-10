@@ -28,7 +28,7 @@ function NavigationMobile() {
   const scrollingToTop = () => {
     scroll.scrollToTop()
   }
-  const scrolTopMenu = useScrollTop(window, 50).scrollStarted
+  const scrolTopMenu = useScrollTop(50).scrollStarted
 
   return(
     <>

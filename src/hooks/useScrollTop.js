@@ -1,13 +1,11 @@
 import { useEffect, useState } from 'react'
  
-function useScrollTop(element, value) {
+function useScrollTop( value) {
   const [scrollStarted, setScrollStarted] = useState(false)
-
+  
   useEffect(() => {
-    if (element === undefined) {
-      element = window
-    }
-    element.addEventListener('scroll', event => {
+     
+    window.addEventListener('scroll', event => {
       if (event.currentTarget.pageYOffset >= value) {
         setScrollStarted(true)
       } else {
